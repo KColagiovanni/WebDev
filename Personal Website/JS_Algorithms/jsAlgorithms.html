@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a class="anchor" href="#fibNumsDiv">Sum odd Fibonacci Number</a>
+                <a class="anchor" href="#sumOfAllPrimeNumsDiv">Sum of all Prime Numbers</a>
+                <a class="anchor" href="#binaryToAlphaDiv">Binary To Alpha Character Converter</a>
+                <a class="anchor" href="#truthyDiv">Check if a predicate is Truthy</a>
+<!--                <a class="anchor" href="#"></a>-->
+              </div>
+            </div>
+            <a href="../index.html">Home</a>
+        </div>
+    
+        <h1 class="intro">Intermediate JS Algorithm Scripting</h1>
+        <link href="jsAlgorithms.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Sum odd Fibonacci Number -->
+        <div id="fibNumsDiv">
+            <h2>Sum odd Fibonacci Number</h2>
+            <p>
+              Given a positive integer, this function returns the sum of all odd Fibonacci numbers that are less than or equal to num.
+            </p>
+            <p>
+              The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+            </p>
+            <p>
+              This function takes anu integer and returns the sum of all the odd Fibonacci numbers between it and 1.
+            </p>
+            <input type="text" id="fibNums" value="5">
+            <button class="myBtn" onclick="sumFibs()">Sum</button><br>
+            <input type="checkbox" id="showFibNums">
+            <label for="showFibNums">Show a list of all the odd Fibonacci numbers to be summed</label>
+            <p id="showFibList"></p>
+            <h4 id=fibNumsResult></h4>
+            <script src="jsAlgorithms.js"></script>
+        </div><br><br>
+
+        <!-- Sum of All Prime Numbers -->
+        <div id="sumOfAllPrimeNumsDiv">
+          <h2>Sum of All Prime Numbers</h2>
+          <p>
+            A prime number is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
+          </p>
+          <p>
+            This function takes any integer and returns the sum of all the prime numbers between 2 and the number entered.
+          </p>
+          <p>
+            <strong>Note: </strong> If you enter a number greater than 20,000 the program starts taking longer to calculate the answer.
+          </p>
+          <input type="text" id="sumOfAllPrimeNums" value="50">
+          <button class="myBtn" onclick="sumPrimes()">Sum</button><br>
+          <input type="checkbox" id="showPrimeNums">
+          <label for="showPrimeNums">Show a list of all the prime numbers to be summed</label>
+          <p id="primeNumList"></p>
+          <h4 id=sumOfAllPrimeNumsResult></h4>
+          <script src="jsAlgorithms.js"></script>
+        </div><br><br>
+
+        <!-- Smallest Common Multiple -->
+<!--        <div id="smallestCommonMultipleDiv">
+          <h2>Smallest Common Multiple</h2>
+          <p>
+
+          </p>
+          <p>
+          </p>
+          <input type="number" id="smallestCommonMultiple1" min="1" max="1000000" value="50">
+          <input type="number" id="smallestCommonMultiple2" min="1" max="1000000" value="50">
+          <button class="myBtn" onclick="smallestCommons()">Show</button><br>
+          <script src="jsAlgorithms.js"></script>
+          <p id=smallestCommonMultipleResult></p>
+        </div><br><br>
+-->
+
+        <!-- Binary To Alpha Char Converter -->
+        <div id="binaryToAlphaDiv">
+          <h2>Binary To Alpha Character Converter</h2>
+          <p>This function will return an English translated sentence of the passed binary string. The binary string will be space separated. See more about converting binary to ASCII and vice versa <a href="https://www.rapidtables.com/convert/number/binary-to-ascii.html">here</a>.</p>
+          <input type="text" id="binaryToAlpha" value="01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111">
+          <button class="myBtn" onclick="binaryAgent()">Convert</button><br>
+          <h4 id="binaryToAlphaResult"></h4> 
+          <script src="jsAlgorithms.js"></script>
+        </div><br><br>
+
+        <!-- Check if a predicate is Truthy -->
+        <div id="truthyDiv">
+          <h2>Check if a predicate is Truthy</h2>
+          <p>
+            Check if the predicate is truthy on all elements of a collection. In other words does each collection/object have the same keys with a value that does not equal false.
+          </p>
+          <p>
+            In other words, you are given an array collection of objects. The predicate will be an object property that will return true if it's value is truthy. Otherwise, return false.
+          </p>
+          <p>  
+            In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
+          </p>
+          <ul><h4>These Are Interesting Truthy Values:</h4>
+            <li>‘0’ (a string containing a single zero)</li>
+            <li>‘false’ (a string containing the text “false”)</li>
+            <li>(an empty array)</li>
+            <li>{} (an empty object)</li>
+            <li>function(){} (an “empty” function)</li>
+          </ul>
+
+          <p>
+            <strong>Note: </strong>Fill out the table below from left to right. If a Key or Value column is left blank any data in a column to the right of it will be ignored.
+          </p>
+          <table id="inputTbl">
+            <tr>
+              <th>Collections</th>
+              <th>Key 1</th>
+              <th>Value 1</th>
+              <th>Key 2</th>
+              <th>Value 2</th>
+              <th>Key 3</th>
+              <th>Value 3</th>
+            </tr>
+            <tr>
+              <th>Object 1</th>
+              <td><input type="text" id="obj0key0" value='name'></td>
+              <td><input type="text" id="obj0value0" value='Kevin'></td>
+              <td><input type="text" id="obj0key1" value='age'></td>
+              <td><input type="text" id="obj0value1" value=37></td>
+              <td><input type="text" id="obj0key2" value='onTrain'></td>
+              <td><input type="text" id="obj0value2" value='true'></td>
+            </tr>
+            <tr>
+              <th>Object 2</th>
+              <td><input type="text" id="obj1key0" value='name'></td>
+              <td><input type="text" id="obj1value0" value='Jessica'></td>
+              <td><input type="text" id="obj1key1" value='age'></td>
+              <td><input type="text" id="obj1value1" value=33></td>
+              <td><input type="text" id="obj1key2" value='onTrain'></td>
+              <td><input type="text" id="obj1value2" value='false'></td>
+            </tr>
+            <tr>
+              <th>Object 3</th>
+              <td><input type="text" id="obj2key0" value='name'></td>
+              <td><input type="text" id="obj2value0" value='Chris'></td>
+              <td><input type="text" id="obj2key1" value='age'></td>
+              <td><input type="text" id="obj2value1" value=41></td>
+              <td><input type="text" id="obj2key2" value='onTrain'></td>
+              <td><input type="text" id="obj2value2" value='false'></td>
+            </tr>
+            <tr>
+              <th>Object 4</th>
+              <td><input type="text" id="obj3key0" value='name'></td>
+              <td><input type="text" id="obj3value0" value='Minnie'></td>
+              <td><input type="text" id="obj3key1" value='age'></td>
+              <td><input type="text" id="obj3value1" value=35></td>
+              <td><input type="text" id="obj3key2" value='onTrain'></td>
+              <td><input type="text" id="obj3value2" value='true'></td>
+            </tr>
+            <tr>
+              <th>Object 5</th>
+              <td><input type="text" id="obj4key0" value='name'></td>
+              <td><input type="text" id="obj4value0" value='Paul'></td>
+              <td><input type="text" id="obj4key1" value='age'></td>
+              <td><input type="text" id="obj4value1" value=39></td>
+              <td><input type="text" id="obj4key2" value='onTrain'></td>
+              <td><input type="text" id="obj4value2" value='false'></td>
+            </tr>
+          </table><br>
+          <input type="checkbox" id="dontAskNums" checked>
+          <label for="dontAskNums">Dont ask about parsing numerical entries from strings to numbers, convert them all to numbers!"</label><br>
+          <input type="checkbox" id="dontAskBool" checked>
+          <label for="dontAskBool">Dont ask about parsing 'true' and 'false" entries from strings to boolean values, convert them all to boolean!"</label><br>
+          <label for="truthyPre"><strong>Predicate: </strong></label>
+          <input type="text" id="truthyPre" value="name">
+          <button class="myBtn" onclick="truthCheck()">Check</button>
+          <h4 id="truthyResult"></h4>
+          <script src="jsAlgorithms.js"></script>
+        </div>
+      </body>
+</html>

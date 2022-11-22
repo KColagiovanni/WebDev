@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div class="navbar">
+            <a href="../../index.html">Home</a>
+        </div>
+        <title>Space Invaders</title>
+        <link rel="stylesheet" href="si.css">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div id="container">
+            <h2>Space Invaders</h2>
+            <audio id="explosion" src="boom.wav"></audio>
+            <audio id="shoot" src="pew.wav"></audio>
+            <div id="infoContainer">
+                <h3>Round: <span id="round"></span></h3>
+                <h3>Score: <span id="score"></span></h3>
+            </div>
+            <h3><span id="result"></span></h3>
+            <div class="grid"></div>
+            <div id="buttonDiv">
+                <button id="startGame" onclick="startGame()">Start Game</button>
+                <button id="soundBtn" class="fas fa-volume-up fa-lg" onclick="sound()"></button>
+            </div>
+        </div>
+        <script src="si.js"></script>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+html {
+    background-color: #222;
+}
+
+#container {
+    margin-top: 65px;
+    color: #ddd;
+    text-align: center;
+}
+
+#infoContainer {
+    display: flex;
+/*    align-content: center;*/
+    justify-content: center;
+}
+
+h2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+/*    margin: 0 300px;*/
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;  
+    color: #f00;
+    background-color: #000;
+}
+
+h3 {
+    margin: 10px 15px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 50vw;
+    max-width: 750px;
+    height: 50vw;
+    max-height: 70vh;
+    margin: 0 auto;
+/*    background-color: #000;*/
+    background-image: url(star.jpg);
+    background-repeat: repeat;
+}
+
+.grid div {
+    width: 6.66%;
+    height: 6.66%;
+}
+
+.shooter {
+    background-image: url(spaceship.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+/*    width: 6.66%;
+    height: 6.66%;*/
+}
+
+.invader {
+    background-image: url(invader.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 6.66%;
+    height: 6.66%;
+}
+
+.boom {
+    background-image: url(explosion.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 6.66%;
+    height: 6.66%;
+}
+
+.laser {
+    background-image: url(laser1.jpg);
+    background-size: 0.3vw;
+    background-repeat: no-repeat;
+    width: 6.66%;
+    height: 6.66%;
+}
+
+#startGame {
+    margin: 10px 0;
+}
+
+#soundBtn {
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+a.anchor {
+    top: -100px;
+}

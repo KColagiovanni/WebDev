@@ -1,0 +1,102 @@
+:root {
+    --quote-fonts: 'Indie Flower', monospace;
+    --main-back: #666;
+    --quote-back: #ccc;
+    --quote-font-size: 30px;
+    --author-font-size: 15px;
+    --button-font-size: 20px;
+}
+
+html {
+  background-color: var(--main-back);
+}
+
+/*Defining the quote box*/
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+/*Defining the inside of the quote box*/
+#quote-div{
+  flex-direction: column;
+}
+
+/*Defining the quote text, quote size, and quote positioning*/
+#text-p {
+    font-family: var(--quote-fonts);
+    flex-direction: row;
+    font-size: var(--quote-font-size);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+/*Defining the author text size, and positioning*/
+#author-div{
+  flex-direction: row;
+  margin-right: 20px;  
+}
+
+#author {
+    float: right;
+    font-size: var(--author-font-size);
+}
+#author-p{
+    float: right;
+    font-size: var(--author-font-size);
+}
+
+
+/*Definging the bottom row in the quote box*/
+#bottom-div{
+  flex-direction: row;
+}
+
+/*Defining the Bootstrap twitter button background color, size, and positioning*/
+#tweet-quote {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px black solid;
+    font-size: var(--quote-font-size);
+    padding: 2px 9px 2px 9px;
+    margin: 10px;
+    float: left;
+}
+
+/*Defining the "New Quote" Bootstrap button size, and positioning*/
+#new-quote {
+    border: 1px black solid;
+    width: 140px;
+    font-size: var(--button-font-size);
+    margin: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    float: right;
+}
+
+/*********** Navbar Stuff **********/
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

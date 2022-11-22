@@ -1,0 +1,256 @@
+html {
+    background-color: #bbb;
+    font-size: 1em;
+}
+
+#gameContainer {
+    border: 5px solid #000;
+    border-radius: 20px;
+    background-color: #0ff;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-height: 95vh;
+    margin-top: 65px;
+/*    max-width: 60vw;*/
+}
+
+h2, h3, #score, #matchResult, #round{
+    text-align: center;
+}
+
+#btns, #difficultyDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+/*    margin-left: 32%;*/
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#difficulty {
+    max-width: 72px;
+}
+
+#newGame, #reset {
+    width: 85px;
+    margin-top: 10px;
+}
+
+#score, #roundCont {
+    text-align: center;
+/*    margin-right: 25%;*/
+}
+
+#container {
+    display: grid;
+    justify-items:center;
+/*    width: 46.5%;
+    padding-right: 35%;*/
+}
+
+.grid {
+    display: grid;
+/*    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+/*    width: 15%;
+    height: auto;*/
+}
+
+img {
+/*    width: 8vw;*/
+    max-inline-size: fit-content;
+}
+
+#newGame {
+    margin-left: 2px;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+a.anchor {
+    top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+/*    #btns, #difficultyDiv{
+        flex-direction: column;
+        margin-left: inherit;
+    }*/
+
+    #newGame {
+        margin-top: 10px;
+        margin-left: opx;
+    }
+
+    #gameContainer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    img {
+        width: 12vw;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+/*    #btns,#difficultyDiv{
+        flex-direction: column;
+        margin-left: inherit;
+    }*/
+
+    #newGame {
+        margin-top: 10px;
+        margin-left: opx;
+    }
+
+    #gameContainer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img {
+        width: 4vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #newGame {
+        margin-top: 10px;
+        margin-left: opx;
+    }
+
+    #gameContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    img {
+        width: 5vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #newGame {
+        margin-top: 10px;
+        margin-left: opx;
+    }
+
+    #gameContainer {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    img {
+        width: 6vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #newGame {
+        margin-top: 10px;
+        margin-left: opx;
+    }
+
+    #gameContainer {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    img {
+        width: 7vw;
+    }
+}
+
+@media (max-height: 600px) {
+    .grid {
+        display: grid;
+    /*    grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;*/
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    /*    width: 15%;
+        height: auto;*/
+    }
+}
+
+/*@media (max-height: 880px) {
+    img {
+        width: 6vw;
+    }
+}
+
+@media (max-height: 825px) {
+    img {
+        width: 5vw;
+    }
+}
+
+@media (max-height: 735px) {
+    img {
+        width: 4vw;
+    }
+}
+
+@media screen and (max-height: 635px) and (max-width: 320px) {
+    img {
+        width: 10vw;
+    }
+
+    #gameContainer {
+        border: 1px solid #000;
+        margin-left: 5%;
+        margin-right: 5%;
+    }    
+}
+
+@media (max-height: 540px) {
+    img {
+        width: 2vw;
+    }
+}
+
+@media (max-height: 445px) {
+    img {
+        width: 1vw;
+    }
+}
+
+@media (max-height: 315px) {
+    h2, h3, #score, #matchResult, #round{
+        font-size: xx-small;
+    }
+}*/

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technical Document</title>
+    <img src="python_logo.jfif"/>
+    <h1 id="title">Python Tutorial</h1>
+    <link href="td.css" rel="stylesheet" />
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-title">Python Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#getting_started">Getting Started</a></li>
+            <li><a class="nav-link" href="#syntax">Syntax</a></li>
+            <li><a class="nav-link" href="#comments">Comments</a></li>
+            <li><a class="nav-link" href="#variables">Variables</a></li>
+            <li><a class="nav-link" href="#data_types">Data Types</a></li>
+            <li><a class="nav-link" href="#numbers">Numbers</a></li>
+            <li><a class="nav-link" href="#strings">Strings</a></li>
+            <li><a class="nav-link" href="#booleans">Booleans</a></li>
+            <li><a class="nav-link" href="#lists">Lists</a></li>
+            <li><a class="nav-link" href="#dictionaries">Dictionaries</a></li>
+            <li><a class="nav-link" href="#conditional_statements">Conditional Statements</a></li>
+            <li><a class="nav-link" href="#loops">Loops</a></li>
+            <li><a class="nav-link" href="#functions">Functions</a></li>
+        </ul>
+    </nav>
+<main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+                <h5> Python is used for:</h5>
+                <ul>
+                    <li>Web development (server-side)</li>
+                    <li>Software development</li>
+                    <li>Mathematics</li>
+                    <li>System scripting</li>
+                    <li>On a server to create web applications.</li>
+                    <li>Alongside software to create workflows.</li>
+                    <li>To connect to database systems. It can also read and modify files.</li>
+                    <li>To handle big data and perform complex mathematics.</li>
+                    <li>Rapid prototyping, or for production-ready software development.</li>
+                </ul>
+                <h5>Python vs Other Lanuguages</h5>
+                <ul>
+                    <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+                    <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+                    <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+                </ul>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="getting_started">
+            <header>Getting Started</header>
+            <article>
+                <p>Many PCs and Macs will have python already installed.
+        
+        To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):</p>
+                <div class="code-div"><code>C:\Users\Your Name>python --version</code></div>
+                <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:</p>
+                <div class="code-div"><code>python --version</code></div>
+                <p>If python is not already installed, you can <a href="https://www.python.org/">download it</a> for free.</p>
+                <p>Another way to write and run a pyhon program is by using an IDE (integrated development environment). Some examples of free IDE's are:</p>
+                <ul>
+                    <li>IDLE (included with python download)</li>
+                    <li>Sublime Text</li>
+                    <li>Thonny</li>
+                    <li>PyCharm</li>
+                    <li>Visual Studio Code</li>
+                    <li>Vim (pre-installed on MacOS and UNIX systems)</li>
+                </ul>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="syntax">
+            <header>Syntax</header>
+            <article>
+                <p>As we learned in the previous section, Python syntax can be executed by writing directly in the Command Line:</p>
+                <div class="code-div">
+                    <code>>>> print("Hello, World!")<br><br>
+        Output: Hello, World!</code>
+                </div>
+                <p>Or if using an IDE, depending on the IDE, you can also run one line of code at a time, or write a program and execute it.</p>
+                <h5>Indentation</h5>
+                <p>Indentation refers to the spaces at the beginning of a code line.
+        
+        Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+        
+        Python uses indentation to indicate a block of code.</p>
+                <div class="code-div">
+                    <code>if 1 &lt; 2:<br>&nbsp;&nbsp;&nbsp;&nbsp;print("2 is greater than 1")<br><br>Output: 2 is greater than 1</code>
+                </div>
+                <p>Without using indentation, the above statement would print out "2 is greater the 1" whether it's true or not.</p>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="comments">
+            <header>Comments</header>
+            <article>
+                <ul>
+                    <li>Comments can be used to explain Python code.</li>
+                    <li>Comments can be used to make the code more readable.</li>
+                    <li>Comments can be used to prevent execution when testing code.</li>
+                </ul>
+                <h5>Single Line Comments</h5>
+                <p>Comments starts with a #, and Python will ignore them:</p>
+                <div class="code-div">
+                    <code>#This is a single line comment, this part of the code will be ignored by the compiler<br>print("Hello friend")</code>
+                </div>
+                <p>It is good practice to use comments to explain your code so other readers can understand it easier and so can you can better understand what you wee doing if you haven't looked at the code for a while. You can either put comments directly above or after the code you're describing.</p>
+                <div class="code-div">
+                    <code>print("Hello friend") #This is a comment and will be ignored by the compiler</code>
+                </div>
+                <h5>Multiline Comments</h5>
+                <p>Python does not really have a syntax for multi line comments. To add a multiline comment you could insert a # for each line:</p>
+                <div class="code-div">
+                    <code>#This is a multiline<br>#comment and it will<br>#be ignored by the compiler<br>print("Hello friend")</code>
+                </div>
+                <p>Or, not quite as intended, you can use a multiline string. Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:</p>
+                <div class="code-div">
+                    <code>"""<br>This is a multiline<br>comment and it will be<br>ignored by the compiler<br>"""<br>print("Hello friend")</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <article>
+                <p>In Python, variables are created when you assign a value to it. Python has no command for declaring a variable.</p>
+                <div class="code-div"><code>
+                x = 5<br>y = 3<br>result = 5 + 3<br>print(result)<br><br>Output: 8
+                </code></div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="data_types">
+            <header>Data Types</header>
+            <article>
+                <p>In programming, data type is an important concept.
+        
+        Variables can store data of different types, and different types can do different things.
+        
+        Python has the following data types built-in by default, in these categories:</p>
+                <ul>
+                    <li><strong>Text Type:</strong> str(ex. "Kevin")</li>
+                    <li><strong>Numeric Types:</strong> int(ex. 5), float(ex. 5.03), complex(ex. 5j)</li>
+                    <li><strong>Sequence Types:</strong>	list, tuple, range</li>
+                    <li><strong>Sequence Types:</strong> list, tuple, range</li>
+                    <li><strong>Set Types:</strong> set, frozenset</li>
+                    <li><strong>Boolean Type:</strong>	bool</li>
+                    <li><strong>Binary Types:</strong>	bytes, bytearray, memoryview</li>
+                </ul>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="numbers">
+        <header>Numbers</header>
+            <article>
+                <p>There are three numeric types in Python:</p>
+                <ul>
+                    <li>int</li>
+                    <li>float</li>
+                    <li>complex</li>
+                </ul>
+                <p>Variables of numeric types are created when you assign a value to them:</p>
+                <div class="code-div">
+                    <code>x = 1 #int<br>y = 2.8 #float<br>z = 1j #complex<br><br>print(type(x))<br>print(type(y))<br>print(type(z))<br><br>Output: &lt;class 'int'><br>Output: &lt;class 'float'><br>Output: &lt;class 'complex'></code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="strings">
+            <header>Strings</header>
+            <article>
+                <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.
+        
+        'hello' is the same as "hello".
+        
+        You can display a string literal with the print() function:</p>
+                <div class="code-div">
+                    <code>print("Hello World")<br>print('Hello World')<br><br>Output: Hello World<br>Output: Hello World</code>
+                </div>
+                <p>Assigning a string to a variable is done with the variable name followed by an equal sign and the string:</p>
+                <div class="code-div">
+                    <code>a = 'Hello Kevin'<br>print(a)<br><br>Output: Hello Kevin</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="booleans">
+            <header>Booleans</header>
+            <article>
+                <p>Booleans represent one of two values: True or False. 
+        
+                In programming you often need to know if an expression is True or False.
+        
+        You can evaluate any expression in Python, and get one of two answers, True or False.
+        
+        When you compare two values, the expression is evaluated and Python returns the Boolean answer:</p>
+                <div class="code-div">
+                    <code>print(10 > 9)<br>
+        print(10 == 9)<br>print(10 &lt; 9)<br><br>Output: True<br>Output: False<br>Output: False</code>
+                </div>
+                <p>Print a message based on whether the condition is True or False:</p>
+                <div class="code-div">
+                    <code>a = 50<br>b = 20<br><br>if b > a:<br>&nbsp;&nbsp;&nbsp;&nbsp;print("b is greater than a")<br>
+        else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print("b is not greater than a")<br><br>Output: b is not greater than a</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="lists">
+            <header>Lists</header>
+            <article>
+                <p>Lists are used to store multiple items in a single variable.
+        
+        Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+        
+        Lists are created using square brackets:</p>
+            <div class="code-div">
+                <code>my_list = ["red", "white", "blue"]<br>
+        print(my_list)<br><br>Output: ['red', 'white', 'blue']</code>
+            </div>
+                <p>List items are ordered, changeable, and allow duplicate values.
+        List items are indexed, the first item has index [0], the second item has index [1] etc.<br>When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+        If you add new items to a list, the new items will be placed at the end of the list.<br>The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.<br>To determine how many items a list has, use the len() function:</p>
+                <div class="code-div">
+                    <code>my_list = ["red", "white", "blue", "green", "yellow"<br>print(len(my_list))<br><br>Output: 5</code>
+                </div>
+                <p>A list can contain strings, integers and boolean values. From Python's perspective, no matter the data types within the list, lists are defined as objects with the data type 'list':</p>
+                <div class="code-div">
+                    <code>my_list = ["red", 25, true, "ladder", 17.6]<br>print(type(my_list))<br><br>Output: &lt;class 'list'></code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="dictionaries">
+            <header>Dictionaries</header>
+            <article>
+                <p>Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is unordered, changeable and does not allow duplicates. Dictionaries are written with curly brackets, and have keys and values:</p>
+                <div class="code-div">
+                    <code>my_dict = {<br>"make": "Chevy",<br>"model": "Nova",<br>"year": 1966<br>}<br>print(my_dict)<br><br>Output:  {'make': 'Chevy', 'model': 'Nova', 'year': 1966}</code>
+                </div>
+                <p>Dictionary items are unordered, changeable, and does not allow duplicates. Dictionary items are presented in key:value pairs, and can be referred to by using the key name.</p>
+                <div class="code-div">
+                    <code>my_dict = {<br>"make": "Chevy",<br>"model": "Nova",<br>"year": 1966<br>}<br>print(my_dict["make"])<br><br>Output: Chevy</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="conditional_statements">
+            <header>Conditional Statements</header>
+            <article>
+                <p>Below is an example of a Python if statement. If the statement after the "if" keyword is true, then the code below the if statement will be run. Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose. An if statement, without indentation will raise an error.</p>
+                <br>
+                <p><strong>if statement:</strong></p>
+                <div class="code-div">
+                    <code>n = 7<br>if n > 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is greater than 5')<br><br>Output: 7 is greater than 5</code>
+                </div>
+                <br>
+                <p>The else keyword catches anything which isn't caught by the preceding conditions.</p>
+                <p><strong>if/else statement:</strong></p>
+                <div class="code-div">
+                    <code>n = 2<br>if n > 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is greater than 5')<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is not greater than 5')<br><br>Output: 2 is not greater than 5</code>
+                </div>
+                <br>
+                <p>The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".</p>
+                <p><strong>elif statement:</strong></p>
+                <div class="code-div">
+                    <code>n = 5<br>if n > 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is greater than 5')<br>elif n == 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is equal to 5')<br>elif n &lt; 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} is less than 5')<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(f'{n} might not be a number')<br><br>Output: 5 is equal to 5</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="loops">
+            <header>Loops</header>
+            <article>
+                <p>Python has two primitive loop commands:</p>
+                <ul>
+                    <li>while loops</li>
+                    <li>for loops</li>
+                </ul>
+                <p><strong>While loop</strong> - with the while loop we can execute a set of statements as long as a condition is true, or <i>while</i> it's true.</p>
+                <div class="code-div">
+                    <code>a = 1<br>while a &lt; 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(a)<br>&nbsp;&nbsp;&nbsp;&nbsp;a =+ 1<br><br>Output:<br>1<br>2<br>3<br>4</code>
+                </div>
+                <p>The code above stops after the fourth loop because the statement after the "while" keywork is no longer true. As you can see the variable a gets incremented by 1 every time the loop runs. If there is no code that is excecuted in the while loop that makes it false, the while loop will run forever and make your program crash. So there has to always be some was to exit the while loop.</p>
+                <br><br>
+                <p><strong>For loop</strong> - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+                <div class="code-div">
+                    <code>my_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indego', 'violet']<br>for c in my_list:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(c)<br><br>Output<br>red<br>orange<br>yellow<br>green<br>blue<br>indego<br>violet</code>
+                </div>
+                <p>The for loop does not require an indexing variable to set beforehand.</p>
+                <br>
+                <p>Even strings are iterable objects, they contain a sequence of characters:</p>
+                <div class="code-div">
+                    <code>c = 'orange'<br>for l in c:<br>&nbsp;&nbsp;&nbsp;&nbsp;print(l)<br><br>Output:<br>o<br>r<br>a<br>n<br>g<br>e</code>
+                </div>
+                <p>To loop through a set of code a specified number of times, we can use the range() function. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.</p>
+                <div class="code-div">
+                    <code>for x in range(5):<br>&nbsp;&nbsp;&nbsp;&nbsp;print(x)<br><br>Output:<br>0<br>1<br>2<br>3<br>4</code>
+                </div>
+            </article>
+        </section>
+        <br><br>
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <article>
+                <p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.</p>
+                <div class="code-div">
+                    <code>#function definition with no arguments:<br>def greeting():<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Hello friend')<br><br>#calling the function from the program<br>greeting()<br><br>Output: Hello friend</code>
+                </div>
+                <p>Here is an example of a function that takes 1 parameter. Functions can take more than one parameter.</p>
+                <div class="code-div">
+                    <code>#function definition with 1 argument:<br>def greeting(name):<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Hello ' + name)<br><br>#getting user input and calling the function from the program<br>name = input("Enter your name: ")<br>greeting(name)<br><br>Output: Hello Kevin</code>
+                </div>
+                <p>Here is an exapmle of a function using return</p>
+                <div class="code-div">
+                    <code>#function definition with 1 argument and return stsement:<br>def greeting(name):<br>&nbsp;&nbsp;&nbsp;&nbsp;result = 'Hello ' + name<br>return result<br><br>#getting user input and calling the function from the program<br>name = input("Enter your name: ")<br>print(greeting(name))<br><br>Output: Hello Kevin</code>
+                </div>
+                <p>You can just print the returned result, as shown above, or do other things with it.</p>
+            </article>
+        </section>
+        <br><br>
+        <hr>
+        <p>Information in this article was taken from the <a href="https://www.w3schools.com/python/default.asp">W3 Schools</a> website, which is a very informative website with a lot more information. If you're interested in learning more about Python, visit their website.</p>
+    </main>
+</html>

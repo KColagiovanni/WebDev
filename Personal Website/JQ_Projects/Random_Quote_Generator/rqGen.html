@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote Generator</title>
+        <div class="navbar">
+            <a href="../../index.html">Home</a>
+        </div>
+        <link href="rqGen.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Adding the boostrap link for the twitter logo-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        <!--Adding the boostrap link for the button-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap"/>
+        <div id="quote-box">
+            <div id="quote-div">
+                <p id="text-p">"<span id="text"></span>"</p>
+            </div>
+            <div id="author-div">
+                <p id="author-p">-&nbsp;<span id="author"></span></p>
+            </div>
+            <div id="bottom-div">
+                <button id="new-quote" class="btn btn-primary" title="Show a new Quote!">New Quote</button>
+                <div id="tweet"><a class="button" id="tweet-quote" target="_top" title="Tweet this Quote!"><i class="fa fa-twitter"></i></a></div>
+            </div>
+        </div>
+        <!-- Enable jQuery-->
+        <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+        <script src="rqGen.js"></script>
+    </body>
+</html>

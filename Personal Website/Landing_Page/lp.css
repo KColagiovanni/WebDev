@@ -1,0 +1,148 @@
+header {
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 5;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #title {
+    margin-top: 75px;
+    scroll-margin-top: 125px;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #bcb;
+    text-align: center;
+  }
+  
+  header, #title, body, #submit, #email {
+    font-family: arial, monospace;
+  }
+  
+  #nav-ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+  }
+  
+  #nav-div {
+    position: relative;  
+  }
+  
+  #img-div {
+    position: relative;
+  }
+  
+  #header-img {
+    height: 48px;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px solid #555;
+  }
+  
+  .nav-list {
+    display: inline;
+    float: left;
+  }
+  
+  .nav-list a {
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-list a:hover {
+    border-radius: 5px;
+    background-color: #787;
+  }
+  
+  #about {
+    text-align: center;
+    scroll-margin-top: 75px;
+    margin: auto;
+  }
+  
+  #about-text {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #video {
+    border-radius: 5px;
+  }
+  
+  #email {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  #submit {
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #8f8;
+  }
+  
+  #service-div {
+    line-height: 120%;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #services {
+    text-align: center;
+  }
+  
+  @media (max-width: 443px) {
+    #title {
+      margin-top: 125px;
+      scroll-margin-top: 125px;
+    }  
+    #about {
+      scroll-margin-top: 125px;
+    }
+    #video {
+      width: 300px;
+      height: 225px;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    #title {
+      margin-top: 175px;
+      scroll-margin-top: 175px;
+    }  
+    #about, #services {
+      scroll-margin-top: 175px;
+    }
+    #video {
+      width: 250px;
+      height: 187px;
+    }
+  }
+  
+  @media (max-width: 254px) {
+    #title {
+      margin-top: 225px;
+      scroll-margin-top: 225px;
+    }  
+    #about, #services {
+      scroll-margin-top: 225px;
+    }
+    #video {
+      width: 200px;
+      height: 150px;
+    }
+  }

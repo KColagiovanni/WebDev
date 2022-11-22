@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>JavaScript Algorithms</title>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a class="anchor" href="#palindromeCheckerDiv">Palindrome Checker</a>
+            <a class="anchor" href="#romanNumeralConverterDiv">Roman Numeral Converter</a>
+            <a class="anchor" href="#caesarsCipherDiv">Caesars Cipher</a>
+            <a class="anchor" href="#telephoneNumberValidatorDiv">Telephone Number Validator</a>
+            <a class="anchor" href="#cashRegisterDiv">Cash Register</a>
+          </div>
+        </div>
+        <a href="../index.html">Home</a>
+      </div>
+      <h1 class="intro">JavaScript Algorithms</h1>
+      <br><br>
+      <link href="jsProj.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Palindrome Checker-->
+    <div id="palindromeCheckerDiv">
+      <h2>Palindrome Checker</h2>
+      <p>A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing. <br>Strings with varying formats, such as <strong>racecar, RaceCar,</strong> and <strong>race CAR</strong> among others will be passed through the function as well as special symbols, such as <strong>2A3*3a2, 2A3 3a2,</strong> and <strong>2_A3*3#A2</strong>.</p>
+      <p><strong>Note:</strong> All non-alphanumeric characters (punctuation, spaces and symbols) were removed and everything is changed into the same case (lower or upper case) in order to check for palindromes.</p>
+      <h4>Here are some exapmles of palindromes that will return true:</h4>
+      <ul>
+        <li>eye</li>
+        <li>_eye</li>
+        <li>race car</li>
+        <li>A man, a plan, a canal. Panama</li>
+        <li>never odd or even</li>
+        <li>My age is 0, 0 si ega ym.</li>
+        <li>0_0 (: /-\ :) 0-0</li>
+      </ul>
+      <h4>Here are some exaples that will <em>not</em> return true:</h4>
+      <ul>
+        <li>not a palindrome</li>
+        <li>nope</li>
+        <li>almostomla</li>
+        <li>1 eye for of 1 eye.</li>
+        <li>five|\_/|four</li>
+      </ul>
+      <br>
+      <h4>Is it a Palindrome?</h4>
+      <input type="text" id="palindromeChecker" value="racecar">
+      <button class="myBtn" onclick="palindrome()">Check</button>
+      <script src="jsProj.js"></script>
+      <p id=pcResult></p>
+    </div>
+    <br><br>
+
+    <!--Roman Numeral Converter-->
+    <div id="romanNumeralConverterDiv">
+      <h2>Roman Numeral Converter</h2>
+      <h4>Rules:</h4>
+      <ul style="list-style-type:none;">
+        <li>-In the Roman numeral system, the basic "digits" are the letters I, V, X, L, C, D, and M which represent the same numbers regardless of their position.</li><br>
+        <li>-Symbols are placed in order of value, starting with the largest values.
+        When the higher numeral is placed before a lower numeral, the values of each Roman numeral are added.</li><br>  
+        <li>-When smaller values precede larger values, the smaller values are subtracted from the larger values, and the result is added to the total.</li><br>
+        <li>-Do not repeat I, X, and C more than three times in a row. (Number 4 on a Roman numeral clock is usually written as IIII.)</li><br>
+        -Symbols V, L, and D cannot appear more than once consecutively.</li><br><br>
+        <li>-Do not subtract a number from one that is more than 10 times greater: I may only precede V and X, X may only precede L and C, and C may only precede D and M.</li><br>
+      </ul>
+      <p><strong>Note:</strong> The <strong>largest number</strong> that can be represented in this notation is <strong>3,999</strong> (MMMCMXCIX), but since the largest Roman numeral likely to be required today is MMXXI (the current year) there is no practical need for larger Roman numerals. Prior to the introduction of Arabic numerals in the West, ancient and medieval users of the system used various means to write larger numbers. Read more about Roman Numerals on <a href="https://en.wikipedia.org/wiki/Roman_numerals">Wikipedia</a></p>
+      <h4>Key:</h4>
+      <ul style="list-style-type: circle;">
+        <li>I = 1</li>
+        <li>V = 5</li>
+        <li>X = 10</li>
+        <li>L = 50</li>
+        <li>C = 100</li>
+        <li>D = 500</li>
+        <li>M = 1000</li>
+      </ul><br>
+      <h4>Enter a number to be converted to a Roman Numeral:</h4>
+      <input type="text" id="romanNumeralConverter" value="55">
+      <button class="myBtn" onclick="convertToRoman()">Convert</button>
+      <script src="jsProj.js"></script>
+      <p id=rncResult></p>
+    </div>
+    <br><br>
+
+    <!--Caesars Cipher-->
+    <div id="caesarsCipherDiv">
+        <h2>Caesars Cipher</h2>
+        <p>One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount. A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on. This function has the added functionality of allowing the user to adjust the shift amount from 0 (no shift) to 25 (-1 shift). In addition to using the "Decode" button to get the result, the function will also update the value when then shift number value changes to make it easier to decode a phrase or word.</p>
+        <p>This program is showing a function which takes an encoded or decoded string as input and returns a decoded string that is shifted by a user defined amount. All letters will be converted to uppercase if they are not already.</p>
+
+        <p><strong>Note:</strong> This function will <em>decode</em> a cipher or <em>encode</em> a regular phrase.</p>
+        <h4>Here are some examples to try that are shifted by 13:</h4>
+        <ul>
+          <li>V YBIR GB PBQR</li>
+          <li>SERR CVMMN!</li>
+          <li>GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.</li>
+          <li>SERR YBIR?</li>
+        </ul>
+        <label for="shiftAmount">Shift Cipher by: </label>
+        <input onchange="rot()" type="number" id="shiftAmount" min="0" max="25" value="13"><br>
+        <input type="text" id="caesarsCipher" value="V YBIR GB PBQR">
+        <button class="myBtn" onclick="rot()">Decode</button>
+        <script src="jsProj.js"></script>
+        <p id=ccResult></p>
+    </div>
+    <br><br>
+
+    <!--Telephone Number Validator-->
+    <div id="telephoneNumberValidatorDiv">
+      <h2>Telephone Number Validator</h2>
+      <p>You may fill out the form field any way they choose as long as it has the format of a valid US number. This function will validate or reject the US phone number based on any combination of the formats. The area code is required. If the country code is provided, you must confirm that the country code is 1.</p>
+      <h4>Here are some examples of valid US phone numbers:</h4>
+      <ul style="list-style-type: circle;">
+        <li>1 555-555-5555</li>
+        <li>1 (555) 555-5555</li>
+        <li>5555555555</li>
+        <li>555-555-5555</li>
+        <li>(555)555-5555</li>
+        <li>1(555)555-5555</li>
+        <li>1 555 555 5555</li>
+        <li>1 456 789 4444</li>
+      </ul>
+      <h4>Here are some examples of <em>invalid</em> US phone numbers:</h4>
+      <ul style="list-style-type: circle;">
+        <li>555-5555</li>
+        <li>5555555</li>
+        <li>1 555)555-5555</li>
+        <li>123**&!!asdf#</li>
+        <li>55555555</li>
+        <li>(6054756961)</li>
+        <li>2 (757) 622-7382</li>
+        <li>0 (757) 622-7382</li>
+        <li>-1 (757) 622-7382</li>
+        <li>2 757 622-7382</li>
+        <li>10 (757) 622-7382</li>
+        <li>27576227382</li>
+        <li>(275)76227382</li>
+        <li>2(757)6227382</li>
+        <li>2(757)622-7382</li>
+        <li>555)-555-5555</li>
+        <li>(555-555-5555</li>
+        <li>(555)5(55?)-5555</li>
+      </ul>
+      <input type="text" id="telephoneNumberValidator" value="1-234-567-8910">
+      <button class="myBtn" onclick="telephoneCheck()">Check</button>
+      <script src="jsProj.js"></script>
+      <p id=tnvResult></p>
+    </div>
+    <br><br>
+    
+    <!--Cash Register-->
+    <div id="cashRegisterDiv">
+      <h2>Cash Register</h2>
+      <h4>Rules:</h4>
+      <p>Enter the price of the item, then enter how much cash was received, and finally enter the amount of cash in the register.<br><br>This function will return "status: "INSUFFICIENT_FUNDS", change: "Not enough cash in drawer to give change!!", if cash-in-drawer is less than the change due, or if you cannot return the exact change. it will return "status: "CLOSED", change: [...]", with cash-in-drawer as the value for the key change if it is equal to the change due. Otherwise, it will return "status: "OPEN", change: [...]", with the change due in coins and bills as the value of the change key.</p>
+      <div id="form1">
+        <label for="cashRegisterPrice">Item Price:</label>
+        <input type="text" id="cashRegisterPrice" value="19.5">
+        <label for="cashRegisterCash">Cash Received:</label>
+        <input type="text" id="cashRegisterCash" value="20">
+      </div>
+      <h4>Cash in Drawer:</h4>
+      <div id="form2">
+        <label for="penny">Penny:</label>
+        <input type="number" id="penny" step="0.01" min="0.00" max="10.00" value="1.01"><br>
+        <label for="nickel">Nickel:</label>
+        <input type="number" id="nickel" step="0.05" min="0.00" max="10.00" value="2.05"><br>
+        <label for="dime">Dime:</label>
+        <input type="number" id="dime" step="0.1" min="0.00" max="10.00" value="3.1"><br>
+        <label for="quarter">Quarter:</label>
+        <input type="number" id="quarter" step="0.25" min="0.00" max="20.00" value="4.25"><br>
+        <label for="one">One:</label>
+        <input type="number" id="one" step="1.00" min="0.00" max="200.00" value="90"><br>
+        <label for="five">Five:</label>
+        <input type="number" id="five" step="5.00" min="0.00" max="200.00" value="55"><br>
+        <label for="ten">Ten:</label>
+        <input type="number" id="ten" step="10.00" min="0.00" max="300.00" value="20"><br>
+        <label for="twenty">Twenty:</label>
+        <input type="number" id="twenty" step="20.00" min="0.00" max="300.00" value="60"><br>
+        <label for="hundred">Hundred:</label>
+        <input type="number" id="hundred" step="100.00" min="0.00" max="1000.00" value="100"><br>
+      </div>
+      <button class="myBtn" onclick="checkCashRegister()">Check Out</button>
+      <p id=crResult></p>
+      <table id="mainTbl">
+        <tr>
+          <th>Currency</th>
+          <th>Change Given</th>
+        </tr>
+        <tr>
+          <th>Penny</th>
+          <td id="pennyTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Nickel</th>
+          <td id="nickelTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Dime</th>
+          <td id="dimeTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Quarter</th>
+          <td id="quarterTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>One</th>
+          <td id="oneTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Five</th>
+          <td id="fiveTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Ten</th>
+          <td id="tenTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>Twenty</th>
+          <td id="twentyTable" class="tbl"></td>
+        </tr>
+        <tr>
+          <th>One Hundred</th>
+          <td id="hundredTable" class="tbl"></td>
+        </tr>
+      </table>
+      <script src="jsProj.js"></script>
+    </div>
+    <br><br><br>  
+  </body>
+</html>

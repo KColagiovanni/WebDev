@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survery Form</title>
+    <h1 id="title">Survey Form</h1>
+    <link rel="stylesheet" href="sf.css"/>
+  </head>
+  <body>
+    <h2 id="description">Tell us a little more about yourself</h2>
+    <hr class="solid">
+    <form id="survey-form" action="https://formspree.io/f/mdoyekda"
+    method="POST">
+      <div id="user-input">
+          <label id="name-label">Name: </label>
+          <input id="name" name="Name" placeholder="Enter your Name" required>
+          <br>
+          <label id="email-label">Email: </label>
+          <input id="email" type="E-Mail:" name="email" placeholder="Enter your Email" required>          <br>
+          <label id="number-label">Age: </label>
+          <input id="number" name="Age" type="number" placeholder="Enter your Age" min="0" max="100">      
+      </div>
+      <div id="drop-box">
+        <h4 id="dropdown-text">Choose the best match for yourself: </h4>
+        <select id="dropdown" name="I am a">
+          <option>Student</option>
+          <option>Teacher</option>
+          <option>Hobbyist</option>
+          <option>Business</option>        
+        </select>
+      </div>
+      <br>
+      <div id="radio-div">
+        <fieldset>
+          <legend id="legend">Are you enjoying this site?</legend><br>
+          <label for="yes" class="radio"><input id="Yes" type="radio" value="yes" name="Are You Enjoying this site?">Yes</label>
+          <br>
+          <label for="no" class="radio"><input id="No" type="radio" value="no" name="Are You Enjoying this site?">No</label>
+          <br>
+          <label for="maybe" class="radio"><input id="Maybe" type="radio" value="maybe" name="Are You Enjoying this site?">Maybe</label>
+        </fieldset>
+      </div>
+      <br><br>
+      <div id="checkbox-div">
+        <fieldset>
+          <legend id="legend">What are your hobbies</legend><br>
+          <label for="run"><input type="checkbox" id="run" value="Running" name="My Hobbies are">Running</label>
+          <br>
+          <label for="bike"><input type="checkbox" id="bike" value="Cycling" name="My Hobbies are">Cycling</label>
+          <br>
+          <label for="swim"><input type="checkbox" id="swim" value="Swimming" name="My Hobbies are">Swimming</label> 
+          <br>
+          <label for="skateBrd"><input type="checkbox" id="skateBrd" value="Skateboarding" name="My Hobbies are">Skateboarding</label>
+          <br>
+          <label for="sleep"><input type="checkbox" id="sleep" value="Sleeping" name="My Hobbies are">Sleeping</label>
+        </fieldset><br>
+      </div>
+      <div id="text-div">
+        <label id="legend">Additional Comments or Suggestions:</label>
+        <br>
+        <textarea id="text-area" name="Additional Comments" type="textarea"></textarea>
+      </div>
+      <button id="submit" type="submit" value="submit">Submit</button>
+    </form>
+  </body>
+</html>

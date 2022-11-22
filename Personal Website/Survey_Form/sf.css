@@ -1,0 +1,141 @@
+:root {
+  --primary: rgb(173, 216, 230);
+  --secondary: rgb(204, 207, 207);
+  --tertiary: rgb(148, 148, 148);
+}
+
+html {
+    position: relative;
+    background-color: lightgray;
+    background-image: url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial, monospace;
+    opacity: 1;
+  }
+  
+html::before {
+/*    content:"";*/
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(238, 104, 193, 0.15);
+}   
+
+#title {
+    text-align: center;
+  }
+  
+.solid {
+  border-top: 2px solid gray;
+}
+
+body {
+  text-align: center;
+}
+
+#name {
+  margin: 5px;
+  width:180px;
+  height: 20px;
+  text-align: center;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+#email {
+  text-align: center;
+  margin: 5px;
+  width:180px;
+  height: 20px;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+#number {
+  text-align: center;
+  margin: 5px;
+  width:180px;
+  height: 20px;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+#number-label {
+  margin-left: 10px;
+}
+
+#name, #email, #number {
+  text-align: left;
+}
+
+#dropdown {
+  margin: auto;
+  width: 190px;
+  height: 25px;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+#dropdown-text {
+  margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+  color: blue;
+  margin-left: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;  
+  width: 250px;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+#user-input {
+  margin-right: 45px;
+}
+
+.radio {
+  vertical-align: left;
+}
+
+fieldset input {
+  align-self: center;
+}
+
+#text-area {
+  width: 400px;
+  height: 200px;
+  resize: vertical;
+  background-color: var(--primary);
+  border-radius: 10px;
+  font-family: arial, monospace;
+  padding: 5px;
+}
+
+#submit {
+  padding: 5px;
+  margin: 10px;
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  color: #000;
+  background-color: var(--secondary);
+  transition: 0.5s ease background-color;
+}
+
+#submit:hover {
+  background-color: var(--tertiary);
+}
+
+#legend {
+  font-size: 16px;
+  font-weight: bold;
+}
