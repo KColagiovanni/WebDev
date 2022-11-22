@@ -1,0 +1,18 @@
+{% extends "twt_tutorial_app/base.html" %}
+
+{% block title %}
+	Update Profile
+{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+	<h3>Update your profile</h3>
+	<form method="POST" class="form-group">
+		{% csrf_token %}
+		{{ form | crispy }}
+		<button type="submit", class="btn btn-primary">Update</button>
+		<button type="cancel", class="btn btn-primary">Cancel</button>
+		<p><a href="/update_password", style="font-size: 12px;">Change Password</a></p>
+
+	</form>
+{% endblock %}
