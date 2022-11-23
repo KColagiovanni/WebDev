@@ -4,8 +4,7 @@ This program was made following the freeCodeCamp.org "Learn Ruby on Rails" YouTu
 https://www.youtube.com/watch?v=fmyvWz5TUWg&t=3410s
 
 Getting Started:
-* Once the new project is created, in a terminal, from the directory where the program is saved,
-  in this case, it's C:\Users\kcola\Documents\Programming-Fun\Rails\recipe-book, type "rails s".
+* Once the new project is created, in a terminal, from the directory where the program is saved, then type "rails s".
   Press ctrl + x to stop the program.
 
 * Stop the the program and type "rails routes" in the terminal from the same directory as the one
