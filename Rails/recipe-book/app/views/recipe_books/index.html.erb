@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+
+<h1>My Recipes</h1>
+
+<table class="table table-striped table-hover table-bordered "><!--border-dark-->
+  <thead>
+    <tr>
+      <th>Recipe name</th>
+      <th>Recipe description</th>
+      <th>Time to prepare</th>
+      <th>Ingredients</th>
+      <th>Instructions</th>
+      <th>Comments</th>
+      <th>Rating</th>
+      <th>Difficulty</th>
+      <th>Category</th>
+      <th>Vegetarian</th>
+      <th>Vegan</th>
+      <th>Gluten free</th>
+      <th>Dairy free</th>
+      <th>Keto</th>
+      <th>Submitted by</th>
+<!--      <th colspan="3"></th>-->
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @recipe_books.each do |recipe_book| %>
+      <tr>
+        <td><%= recipe_book.recipe_name %></td>
+        <td><%= recipe_book.recipe_description %></td>
+        <td><%= recipe_book.time_to_prepare %></td>
+        <td><%= recipe_book.ingredients %></td>
+        <td><%= recipe_book.instructions %></td>
+        <td><%= recipe_book.comments %></td>
+        <td><%= recipe_book.rating %></td>
+        <td><%= recipe_book.difficulty %></td>
+        <td><%= recipe_book.category %></td>
+        <td><%= recipe_book.vegetarian %></td>
+        <td><%= recipe_book.vegan %></td>
+        <td><%= recipe_book.gluten_free %></td>
+        <td><%= recipe_book.dairy_free %></td>
+        <td><%= recipe_book.keto %></td>
+        <td><%= recipe_book.submitted_by %></td>
+
+        <td><%= link_to 'Show', recipe_book %></td>
+<!--
+        <td><%= link_to 'Edit', edit_recipe_book_path(recipe_book) %></td>
+        <td><%= link_to 'Destroy', recipe_book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+-->
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Add New Recipe', new_recipe_book_path, class:"btn btn-secondary" %>

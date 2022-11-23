@@ -1,0 +1,2852 @@
+Started GET "/" for ::1 at 2021-11-10 21:24:27 -0800
+  [1m[35m (9.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 102.5ms | Allocations: 620)
+Completed 200 OK in 366ms (Views: 172.9ms | ActiveRecord: 0.0ms | Allocations: 4985)
+
+
+Started GET "/home/index" for ::1 at 2021-11-10 21:27:12 -0800
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 365)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/kcola/Documents/Programing-Fun/Rails/recepie-book/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 16193ms
+Built at: 11/10/2021 9:27:50 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 52511.9ms | Allocations: 17296)
+Completed 200 OK in 52556ms (Views: 52532.9ms | ActiveRecord: 0.0ms | Allocations: 20876)
+
+
+Started GET "/home/index" for ::1 at 2021-11-10 21:29:34 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for ::1 at 2021-11-10 21:29:38 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 81.2ms | Allocations: 4033)
+Completed 200 OK in 99ms (Views: 94.6ms | Allocations: 5517)
+
+
+Started GET "/" for ::1 at 2021-11-10 21:29:39 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.2ms | Allocations: 3490)
+Completed 200 OK in 80ms (Views: 79.4ms | Allocations: 4007)
+
+
+Started GET "/about" for ::1 at 2021-11-10 21:34:43 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/home/about" for ::1 at 2021-11-10 21:34:50 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 7.4ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 125.5ms | Allocations: 4012)
+Completed 200 OK in 144ms (Views: 138.9ms | Allocations: 5486)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:34:50 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 3488)
+Completed 200 OK in 78ms (Views: 77.7ms | Allocations: 3998)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:37:02 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 97.0ms | Allocations: 4052)
+Completed 200 OK in 114ms (Views: 108.9ms | Allocations: 5383)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:42:23 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 104.9ms | Allocations: 4028)
+Completed 200 OK in 123ms (Views: 119.8ms | Allocations: 5405)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:43:10 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 93.8ms | Allocations: 4024)
+Completed 200 OK in 109ms (Views: 105.2ms | Allocations: 5396)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:43:32 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 86.9ms | Allocations: 4023)
+Completed 200 OK in 105ms (Views: 100.9ms | Allocations: 5395)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:46:11 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 16.3ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 136.5ms | Allocations: 4382)
+Completed 200 OK in 154ms (Views: 149.0ms | Allocations: 5753)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:47:28 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 8.4ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 68.0ms | Allocations: 4404)
+Completed 200 OK in 86ms (Views: 82.0ms | Allocations: 5778)
+
+
+Started GET "/home/about" for ::1 at 2021-11-10 21:47:30 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 3591)
+Completed 200 OK in 63ms (Views: 62.4ms | Allocations: 4105)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:27 -0800
+  [1m[35m (27.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 29.2ms | Allocations: 361)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 12.8ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 345.3ms | Allocations: 7222)
+Completed 200 OK in 541ms (Views: 413.9ms | ActiveRecord: 0.0ms | Allocations: 10795)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:34 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 43)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 3733)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms | Allocations: 4341)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:35 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 3583)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms | Allocations: 4051)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:38 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 70.5ms | Allocations: 3585)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.0ms | Allocations: 4054)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 3585)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms | Allocations: 4058)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-27 21:14:40 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 3583)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 4051)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-28 21:06:33 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 162.8ms | Allocations: 3593)
+Completed 200 OK in 165ms (Views: 164.3ms | Allocations: 4059)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-28 21:06:34 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 3583)
+Completed 200 OK in 55ms (Views: 53.9ms | Allocations: 4048)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 10:19:04 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 408.8ms | Allocations: 3626)
+Completed 200 OK in 413ms (Views: 411.7ms | Allocations: 4097)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 10:19:07 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 3587)
+Completed 200 OK in 49ms (Views: 48.6ms | Allocations: 4052)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 10:19:08 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 3587)
+Completed 200 OK in 60ms (Views: 59.1ms | Allocations: 4052)
+
+
+Started GET "/about" for 127.0.0.1 at 2021-12-31 10:19:14 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 10:19:59 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 9.0ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 64.4ms | Allocations: 3797)
+Completed 200 OK in 69ms (Views: 65.6ms | Allocations: 4469)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 10:56:59 -0800
+  [1m[35m (34.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 61.2ms | Allocations: 362)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 382.0ms | Allocations: 7186)
+Completed 200 OK in 818ms (Views: 576.3ms | ActiveRecord: 0.0ms | Allocations: 10882)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 11:07:20 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 81.7ms | Allocations: 4359)
+Completed 200 OK in 93ms (Views: 89.8ms | Allocations: 5792)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 11:08:12 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 8.6ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 69.9ms | Allocations: 4356)
+Completed 200 OK in 93ms (Views: 85.8ms | Allocations: 5725)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 11:15:54 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 16.3ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 89.6ms | Allocations: 4483)
+Completed 200 OK in 117ms (Views: 111.0ms | Allocations: 5862)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:15:57 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 85.4ms | Allocations: 3690)
+Completed 200 OK in 92ms (Views: 87.7ms | Allocations: 4328)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:15:59 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 75.3ms | Allocations: 3658)
+Completed 200 OK in 189ms (Views: 187.8ms | Allocations: 4130)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:16:02 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 3648)
+Completed 200 OK in 71ms (Views: 69.9ms | Allocations: 4113)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:18:09 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 12.5ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 4980)
+Completed 200 OK in 84ms (Views: 79.6ms | Allocations: 6313)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:18:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 3700)
+Completed 200 OK in 58ms (Views: 57.3ms | Allocations: 4219)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:18:14 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 3706)
+Completed 200 OK in 57ms (Views: 56.2ms | Allocations: 4171)
+
+
+Started GET "/?class=nav-link" for 127.0.0.1 at 2021-12-31 11:18:15 -0800
+Processing by HomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 79.7ms | Allocations: 3698)
+Completed 200 OK in 83ms (Views: 82.1ms | Allocations: 4163)
+
+
+Started GET "/?class=nav-link" for 127.0.0.1 at 2021-12-31 11:18:58 -0800
+Processing by HomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 25.6ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 114.5ms | Allocations: 4500)
+Completed 200 OK in 146ms (Views: 137.0ms | Allocations: 5826)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 11:19:02 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 3735)
+Completed 200 OK in 72ms (Views: 66.3ms | Allocations: 4372)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 11:19:06 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 3648)
+Completed 200 OK in 75ms (Views: 74.4ms | Allocations: 4113)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2021-12-31 11:19:09 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 3654)
+Completed 200 OK in 56ms (Views: 54.7ms | Allocations: 4120)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-31 15:30:37 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 98.9ms | Allocations: 4551)
+Completed 200 OK in 122ms (Views: 116.4ms | Allocations: 5882)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-01-01 22:17:49 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 18.5ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 514.5ms | Allocations: 3753)
+Completed 200 OK in 536ms (Views: 521.6ms | Allocations: 4394)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-01 22:17:51 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 61.7ms | Allocations: 3655)
+Completed 200 OK in 66ms (Views: 64.6ms | Allocations: 4121)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-01-01 22:17:54 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 3671)
+Completed 200 OK in 82ms (Views: 81.1ms | Allocations: 4136)
+
+
+  [1m[35m (13.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (161.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (91.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRecipeBooks (20220102190733)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "recipe_books" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "recipe_name" varchar, "recipe_description" text, "submitted_by" varchar, "time_to_prepare" varchar, "rating" integer, "difficulty" varchar, "category" varchar, "ingredients" text, "instructions" text, "comments" text, "vegetarian" boolean, "vegan" boolean, "gluten_free" boolean, "dairy_free" boolean, "keto" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220102190733"]]
+  [1m[36mTRANSACTION (230.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-01-03 17:55:03.971286"], ["updated_at", "2022-01-03 17:55:03.971286"]]
+  [1m[36mTRANSACTION (129.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/home/about" for 127.0.0.1 at 2022-01-03 09:55:54 -0800
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 38.3ms | Allocations: 362)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 11.4ms | Allocations: 328)
+  Rendered layout layouts/application.html.erb (Duration: 597.8ms | Allocations: 23788)
+Completed 200 OK in 784ms (Views: 673.4ms | ActiveRecord: 0.0ms | Allocations: 27511)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-01-03 09:59:09 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 119.5ms | Allocations: 12802)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms | Allocations: 13377)
+
+
+Started GET "/home/new" for 127.0.0.1 at 2022-01-03 09:59:16 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/home/new"):
+  
+Started GET "/recipe-book/new" for 127.0.0.1 at 2022-01-03 09:59:27 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/recipe-book/new"):
+  
+Started GET "/recipe-book" for 127.0.0.1 at 2022-01-03 09:59:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/recipe-book"):
+  
+Started GET "/recipes" for 127.0.0.1 at 2022-01-03 10:00:03 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/recipes"):
+  
+Started GET "/recipe" for 127.0.0.1 at 2022-01-03 10:00:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/recipe"):
+  
+Started GET "/home/about" for 127.0.0.1 at 2022-01-03 10:00:16 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 3854)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms | Allocations: 4366)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 10:00:21 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 3785)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 4381)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 10:01:05 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1509)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 77.6ms | Allocations: 5370)
+Completed 200 OK in 107ms (Views: 83.0ms | ActiveRecord: 0.4ms | Allocations: 7337)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-03 10:01:10 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 302.9ms | Allocations: 9587)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 369.6ms | Allocations: 9959)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 425.2ms | Allocations: 13773)
+Completed 200 OK in 439ms (Views: 426.4ms | ActiveRecord: 1.0ms | Allocations: 23340)
+
+
+Started POST "/recipe_books" for 127.0.0.1 at 2022-01-03 10:03:02 -0800
+Processing by RecipeBooksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Chicken", "recipe_description"=>"This dish is just a piece of chicken", "submitted_by"=>"Kevin C", "time_to_prepare"=>"35", "rating"=>"3", "difficulty"=>"Easy", "category"=>"Quick Meals", "ingredients"=>"Chicken Thigh or Breast", "instructions"=>"Cook it until it's done", "comments"=>"Good for health snack", "vegetarian"=>"0", "vegan"=>"0", "gluten_free"=>"1", "dairy_free"=>"1", "keto"=>"1"}, "commit"=>"Create Recipe book"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mRecipeBook Create (2.0ms)[0m  [1m[32mINSERT INTO "recipe_books" ("recipe_name", "recipe_description", "submitted_by", "time_to_prepare", "rating", "difficulty", "category", "ingredients", "instructions", "comments", "vegetarian", "vegan", "gluten_free", "dairy_free", "keto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["recipe_name", "Chicken"], ["recipe_description", "This dish is just a piece of chicken"], ["submitted_by", "Kevin C"], ["time_to_prepare", "35"], ["rating", 3], ["difficulty", "Easy"], ["category", "Quick Meals"], ["ingredients", "Chicken Thigh or Breast"], ["instructions", "Cook it until it's done"], ["comments", "Good for health snack"], ["vegetarian", 0], ["vegan", 0], ["gluten_free", 1], ["dairy_free", 1], ["keto", 1], ["created_at", "2022-01-03 18:03:02.275291"], ["updated_at", "2022-01-03 18:03:02.275291"]]
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (105.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/recipe_books/1
+Completed 302 Found in 127ms (ActiveRecord: 107.6ms | Allocations: 3917)
+
+
+Started GET "/recipe_books/1" for 127.0.0.1 at 2022-01-03 10:03:02 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 31.7ms | Allocations: 669)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 4438)
+Completed 200 OK in 155ms (Views: 85.6ms | ActiveRecord: 0.4ms | Allocations: 9069)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 10:03:07 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 886)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | Allocations: 4547)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.4ms | Allocations: 5066)
+
+
+Started GET "/recipe_books/1" for 127.0.0.1 at 2022-01-03 10:03:15 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 140)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 3799)
+Completed 200 OK in 91ms (Views: 80.7ms | ActiveRecord: 0.7ms | Allocations: 4837)
+
+
+Started GET "/recipe_books/1/edit" for 127.0.0.1 at 2022-01-03 10:03:17 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.9ms | Allocations: 3417)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 14.8ms | Allocations: 3685)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 69.4ms | Allocations: 7331)
+Completed 200 OK in 78ms (Views: 70.9ms | ActiveRecord: 0.3ms | Allocations: 8501)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 10:03:20 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 4517)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.3ms | Allocations: 5002)
+
+
+Started GET "/recipe_books/1/edit" for 127.0.0.1 at 2022-01-03 10:03:22 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 9.7ms | Allocations: 3316)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 10.7ms | Allocations: 3460)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 81.3ms | Allocations: 7114)
+Completed 200 OK in 86ms (Views: 82.9ms | ActiveRecord: 0.3ms | Allocations: 8146)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 10:03:24 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 860)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 4519)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.3ms | Allocations: 5004)
+
+
+Started DELETE "/recipe_books/1" for 127.0.0.1 at 2022-01-03 10:03:30 -0800
+Processing by RecipeBooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:52:in `destroy'
+  [1m[36mRecipeBook Destroy (1.3ms)[0m  [1m[31mDELETE FROM "recipe_books" WHERE "recipe_books"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (87.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:52:in `destroy'
+Redirected to http://127.0.0.1:3000/recipe_books
+Completed 302 Found in 102ms (ActiveRecord: 88.8ms | Allocations: 2777)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 10:03:31 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.2ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 721)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 4386)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.2ms | Allocations: 4876)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-03 14:11:00 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 11.1ms | Allocations: 3247)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3364)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 184.3ms | Allocations: 7045)
+Completed 200 OK in 188ms (Views: 186.5ms | Allocations: 7555)
+
+
+Started POST "/recipe_books" for 127.0.0.1 at 2022-01-03 14:21:02 -0800
+Processing by RecipeBooksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Chicken", "recipe_description"=>"Cooked Chicken!", "submitted_by"=>"Kevin C", "time_to_prepare"=>"35", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Protein", "ingredients"=>"Chicken\r\nSalt\r\nPepper\r\nThyme\r\nCayenne\r\n", "instructions"=>"Heat a oil in a pan on medium heat\r\nSprinkle salt pepper, and thyme on both sides of the chicken\r\nAdd the chicken to the warmed pan and cook for 20 minutes or until the middle of the thickest part is cooked to {Enter cooked chicken temp} turn over every few minutes.", "comments"=>"Other spices or sauces can be added if desired.", "vegetarian"=>"0", "vegan"=>"0", "gluten_free"=>"1", "dairy_free"=>"1", "keto"=>"1"}, "commit"=>"Create Recipe book"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mRecipeBook Create (23.1ms)[0m  [1m[32mINSERT INTO "recipe_books" ("recipe_name", "recipe_description", "submitted_by", "time_to_prepare", "rating", "difficulty", "category", "ingredients", "instructions", "comments", "vegetarian", "vegan", "gluten_free", "dairy_free", "keto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["recipe_name", "Chicken"], ["recipe_description", "Cooked Chicken!"], ["submitted_by", "Kevin C"], ["time_to_prepare", "35"], ["rating", 4], ["difficulty", "Easy"], ["category", "Protein"], ["ingredients", "Chicken\r\nSalt\r\nPepper\r\nThyme\r\nCayenne\r\n"], ["instructions", "Heat a oil in a pan on medium heat\r\nSprinkle salt pepper, and thyme on both sides of the chicken\r\nAdd the chicken to the warmed pan and cook for 20 minutes or until the middle of the thickest part is cooked to {Enter cooked chicken temp} turn over every few minutes."], ["comments", "Other spices or sauces can be added if desired."], ["vegetarian", 0], ["vegan", 0], ["gluten_free", 1], ["dairy_free", 1], ["keto", 1], ["created_at", "2022-01-03 22:21:02.752671"], ["updated_at", "2022-01-03 22:21:02.752671"]]
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (82.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/recipe_books/2
+Completed 302 Found in 181ms (ActiveRecord: 106.9ms | Allocations: 3493)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-03 14:21:02 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 95.9ms | Allocations: 3804)
+Completed 200 OK in 108ms (Views: 99.5ms | ActiveRecord: 0.6ms | Allocations: 4884)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-03 14:21:47 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 8.5ms | Allocations: 3318)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 10.2ms | Allocations: 3462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 86.8ms | Allocations: 7140)
+Completed 200 OK in 96ms (Views: 88.8ms | ActiveRecord: 0.3ms | Allocations: 8178)
+
+
+Started PATCH "/recipe_books/2" for 127.0.0.1 at 2022-01-03 14:22:23 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Chicken", "recipe_description"=>"Cooked Chicken!", "submitted_by"=>"Kevin C", "time_to_prepare"=>"35", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Protein", "ingredients"=>"Chicken, Salt, Pepper, and Thyme\r\nCayenne\r\n", "instructions"=>"Heat a oil in a pan on medium heat\r\nSprinkle salt pepper, and thyme on both sides of the chicken\r\nAdd the chicken to the warmed pan and cook for 20 minutes or until the middle of the thickest part is cooked to {Enter cooked chicken temp} turn over every few minutes.", "comments"=>"Other spices or sauces can be added if desired.", "vegetarian"=>"0", "vegan"=>"0", "gluten_free"=>"1", "dairy_free"=>"1", "keto"=>"1"}, "commit"=>"Update Recipe book", "id"=>"2"}
+  [1m[36mRecipeBook Load (0.9ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (1.9ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "Chicken, Salt, Pepper, and Thyme\r\nCayenne\r\n"], ["updated_at", "2022-01-03 22:22:23.832299"], ["id", 2]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (143.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/2
+Completed 302 Found in 173ms (ActiveRecord: 146.8ms | Allocations: 3487)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-03 14:22:24 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 70.5ms | Allocations: 3804)
+Completed 200 OK in 79ms (Views: 72.8ms | ActiveRecord: 0.6ms | Allocations: 4841)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 14:22:30 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.8ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 902)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 90.7ms | Allocations: 4587)
+Completed 200 OK in 94ms (Views: 92.0ms | ActiveRecord: 0.8ms | Allocations: 5072)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:36:51 -0800
+  [1m[35m (17.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 25.3ms | Allocations: 364)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 24.4ms | Allocations: 383)
+  Rendered layout layouts/application.html.erb (Duration: 631.4ms | Allocations: 11512)
+Completed 200 OK in 924ms (Views: 769.1ms | ActiveRecord: 0.0ms | Allocations: 15233)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 14:36:57 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.9ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 70.4ms | Allocations: 10703)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 151.4ms | Allocations: 14630)
+Completed 200 OK in 194ms (Views: 163.6ms | ActiveRecord: 3.1ms | Allocations: 16571)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:39:00 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 25.0ms | Allocations: 322)
+  Rendered layout layouts/application.html.erb (Duration: 95.0ms | Allocations: 4623)
+Completed 200 OK in 116ms (Views: 110.8ms | ActiveRecord: 0.0ms | Allocations: 6021)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-01-03 14:39:04 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 9.3ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 3831)
+Completed 200 OK in 90ms (Views: 85.2ms | ActiveRecord: 0.0ms | Allocations: 4472)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 14:39:06 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 77.8ms | Allocations: 5463)
+Completed 200 OK in 97ms (Views: 90.5ms | ActiveRecord: 0.5ms | Allocations: 6584)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:39:51 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 322)
+  Rendered layout layouts/application.html.erb (Duration: 83.8ms | Allocations: 4672)
+Completed 200 OK in 103ms (Views: 97.9ms | ActiveRecord: 0.0ms | Allocations: 6077)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 14:39:52 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 98.9ms | Allocations: 5456)
+Completed 200 OK in 126ms (Views: 120.4ms | ActiveRecord: 0.4ms | Allocations: 6613)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:39:57 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 77.9ms | Allocations: 3740)
+Completed 200 OK in 82ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 4257)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:41:44 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 208.2ms | Allocations: 8729)
+  Rendered layout layouts/application.html.erb (Duration: 280.6ms | Allocations: 13055)
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 0.0ms | Allocations: 14392)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_recipe_books_path' for #<ActionView::Base:0x000000000084f8>
+Did you mean?  new_recipe_book_path
+               new_recipe_book_url
+               edit_recipe_book_path):
+    13:           <%= link_to 'Recipes', recipe_books_path, class:"nav-link" %>
+    14:         </li>
+    15:         <li class="nav-item">
+    16:           <%= link_to 'Add New Recipe', new_recipe_books_path, class:"nav-link" %>
+    17:         </li>
+    18:       </ul>
+    19:       <form class="d-flex">
+  
+app/views/home/_header.html.erb:16
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:44:06 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 35.5ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 123.7ms | Allocations: 4684)
+Completed 200 OK in 156ms (Views: 147.9ms | ActiveRecord: 0.0ms | Allocations: 6076)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-03 14:44:10 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 374.6ms | Allocations: 10522)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 394.8ms | Allocations: 10943)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 456.8ms | Allocations: 14771)
+Completed 200 OK in 473ms (Views: 467.6ms | ActiveRecord: 0.0ms | Allocations: 15996)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-03 14:44:45 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 24.1ms | Allocations: 412)
+  Rendered layout layouts/application.html.erb (Duration: 116.4ms | Allocations: 4714)
+Completed 200 OK in 137ms (Views: 132.0ms | ActiveRecord: 0.0ms | Allocations: 6143)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-03 14:46:52 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  [1m[36mRecipeBook Load (1.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 24.2ms | Allocations: 2278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 101.2ms | Allocations: 6269)
+Completed 200 OK in 126ms (Views: 119.1ms | ActiveRecord: 2.5ms | Allocations: 7419)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-06 20:39:47 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 260.8ms | Allocations: 5323)
+Completed 200 OK in 270ms (Views: 265.1ms | ActiveRecord: 1.7ms | Allocations: 5860)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-06 20:40:38 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 25.1ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 92.1ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 254.3ms | Allocations: 5968)
+Completed 200 OK in 272ms (Views: 267.3ms | ActiveRecord: 0.3ms | Allocations: 7335)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-06 20:40:41 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 26.2ms | Allocations: 4092)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 36.9ms | Allocations: 4445)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 8137)
+Completed 200 OK in 86ms (Views: 82.4ms | ActiveRecord: 0.0ms | Allocations: 8820)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-06 20:41:17 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 5.3ms | Allocations: 4158)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 4548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 67.6ms | Allocations: 8983)
+Completed 200 OK in 78ms (Views: 75.3ms | ActiveRecord: 0.0ms | Allocations: 10345)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-06 20:41:29 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 7.4ms | Allocations: 4158)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 23.2ms | Allocations: 4548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 81.4ms | Allocations: 8984)
+Completed 200 OK in 94ms (Views: 90.5ms | ActiveRecord: 0.0ms | Allocations: 10402)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-06 20:41:33 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 5103)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.3ms | Allocations: 5773)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-06 20:43:56 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 5.0ms | Allocations: 3472)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3778)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 7608)
+Completed 200 OK in 175ms (Views: 55.7ms | ActiveRecord: 0.7ms | Allocations: 12278)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-06 20:54:11 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 6.8ms | Allocations: 4243)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 11.1ms | Allocations: 4689)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 67.3ms | Allocations: 9134)
+Completed 200 OK in 87ms (Views: 76.6ms | ActiveRecord: 0.9ms | Allocations: 11740)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 20:54:22 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 583)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 61.0ms | Allocations: 4288)
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 0.3ms | Allocations: 5572)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 20:55:19 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 15.7ms | Allocations: 656)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 5125)
+Completed 200 OK in 78ms (Views: 72.7ms | ActiveRecord: 0.3ms | Allocations: 7023)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 20:55:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 13.5ms | Allocations: 655)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.1ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 77.1ms | Allocations: 5124)
+Completed 200 OK in 91ms (Views: 85.1ms | ActiveRecord: 0.3ms | Allocations: 7147)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 20:55:56 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 13.7ms | Allocations: 655)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 68.1ms | Allocations: 5124)
+Completed 200 OK in 84ms (Views: 77.7ms | ActiveRecord: 0.3ms | Allocations: 7147)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 20:56:35 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 23.3ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 84.7ms | Allocations: 5136)
+Completed 200 OK in 114ms (Views: 104.1ms | ActiveRecord: 0.7ms | Allocations: 7164)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 21:02:10 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 11.5ms | Allocations: 656)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 63.9ms | Allocations: 5134)
+Completed 200 OK in 84ms (Views: 72.6ms | ActiveRecord: 0.8ms | Allocations: 7828)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-06 21:02:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 14.0ms | Allocations: 655)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 75.1ms | Allocations: 5134)
+Completed 200 OK in 92ms (Views: 84.6ms | ActiveRecord: 0.4ms | Allocations: 7161)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-06 21:02:50 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 56.5ms | Allocations: 5125)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.7ms | Allocations: 5792)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-06 21:03:47 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 52.9ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 121.6ms | Allocations: 5962)
+Completed 200 OK in 164ms (Views: 156.4ms | ActiveRecord: 0.3ms | Allocations: 7305)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:03:55 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1636)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 122.4ms | Allocations: 5350)
+Completed 200 OK in 125ms (Views: 123.6ms | ActiveRecord: 1.0ms | Allocations: 5887)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-07 22:03:56 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 4167)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 5259)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:03:58 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 967)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 49.1ms | Allocations: 4672)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms | Allocations: 5211)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:04:20 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 26.7ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 24.6ms | Allocations: 338)
+  Rendered layout layouts/application.html.erb (Duration: 114.5ms | Allocations: 5971)
+Completed 200 OK in 126ms (Views: 121.7ms | ActiveRecord: 0.3ms | Allocations: 7337)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-07 22:10:43 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 61.7ms | Allocations: 4082)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 74.0ms | Allocations: 4432)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 128.4ms | Allocations: 8124)
+Completed 200 OK in 134ms (Views: 129.7ms | Allocations: 8803)
+
+
+Started POST "/recipe_books" for 127.0.0.1 at 2022-01-07 22:18:26 -0800
+Processing by RecipeBooksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"Pasta\r\nPasta Sauce\r\nSpices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Create Recipe book"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mRecipeBook Create (1.7ms)[0m  [1m[32mINSERT INTO "recipe_books" ("recipe_name", "recipe_description", "submitted_by", "time_to_prepare", "rating", "difficulty", "category", "ingredients", "instructions", "comments", "vegetarian", "vegan", "gluten_free", "dairy_free", "keto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["recipe_name", "Pasta"], ["recipe_description", "Pasta with tomato sauce"], ["submitted_by", "Kevin C"], ["time_to_prepare", "40"], ["rating", 4], ["difficulty", "Easy"], ["category", "Pasta"], ["ingredients", "Pasta\r\nPasta Sauce\r\nSpices to Taste"], ["instructions", "Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy."], ["comments", "This dish goes well with parmesan cheese."], ["vegetarian", 1], ["vegan", 0], ["gluten_free", 0], ["dairy_free", 1], ["keto", 0], ["created_at", "2022-01-08 06:18:26.248293"], ["updated_at", "2022-01-08 06:18:26.248293"]]
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (96.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 121ms (ActiveRecord: 98.6ms | Allocations: 4354)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-07 22:18:26 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 12.8ms | Allocations: 659)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 67.8ms | Allocations: 5128)
+Completed 200 OK in 83ms (Views: 76.7ms | ActiveRecord: 0.3ms | Allocations: 7092)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:18:30 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1555)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 5260)
+Completed 200 OK in 69ms (Views: 65.3ms | ActiveRecord: 0.4ms | Allocations: 5927)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:23:08 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (1.1ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 45.4ms | Allocations: 1630)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 102.3ms | Allocations: 6103)
+Completed 200 OK in 128ms (Views: 118.7ms | ActiveRecord: 1.1ms | Allocations: 7446)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:24:34 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 20.7ms | Allocations: 1633)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 6101)
+Completed 200 OK in 101ms (Views: 97.7ms | ActiveRecord: 0.3ms | Allocations: 7498)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:27:31 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1646)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 6124)
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 0.5ms | Allocations: 7530)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:28:50 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 6108)
+Completed 200 OK in 95ms (Views: 91.0ms | ActiveRecord: 0.7ms | Allocations: 7508)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:29:52 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 24.3ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 91.5ms | Allocations: 6113)
+Completed 200 OK in 108ms (Views: 102.7ms | ActiveRecord: 0.5ms | Allocations: 7511)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-07 22:30:06 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (1.0ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 80.1ms | Allocations: 6108)
+Completed 200 OK in 94ms (Views: 88.9ms | ActiveRecord: 1.0ms | Allocations: 7509)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:11:22 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 87.6ms | Allocations: 2422)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 12.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 406.2ms | Allocations: 6903)
+Completed 200 OK in 418ms (Views: 414.4ms | ActiveRecord: 1.5ms | Allocations: 8302)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:11:34 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 26.6ms | Allocations: 1639)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 131.0ms | Allocations: 6107)
+Completed 200 OK in 164ms (Views: 158.4ms | ActiveRecord: 0.4ms | Allocations: 7509)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:12:16 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 90.3ms | Allocations: 6113)
+Completed 200 OK in 101ms (Views: 97.1ms | ActiveRecord: 0.4ms | Allocations: 7510)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:13:58 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 6108)
+Completed 200 OK in 84ms (Views: 80.4ms | ActiveRecord: 0.5ms | Allocations: 7505)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:14:39 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 18.6ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 6108)
+Completed 200 OK in 85ms (Views: 81.5ms | ActiveRecord: 0.3ms | Allocations: 7505)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:15:09 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 74.1ms | Allocations: 6108)
+Completed 200 OK in 91ms (Views: 86.3ms | ActiveRecord: 0.3ms | Allocations: 7506)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:17:27 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 36.5ms | Allocations: 1659)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 95.1ms | Allocations: 6137)
+Completed 200 OK in 111ms (Views: 107.1ms | ActiveRecord: 0.4ms | Allocations: 7540)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:17:48 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 24.1ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 121.9ms | Allocations: 6108)
+Completed 200 OK in 135ms (Views: 132.1ms | ActiveRecord: 0.3ms | Allocations: 7510)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-09 10:17:51 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 51.5ms | Allocations: 4082)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 62.8ms | Allocations: 4432)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 108.3ms | Allocations: 8124)
+Completed 200 OK in 113ms (Views: 109.6ms | ActiveRecord: 0.0ms | Allocations: 8807)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:17:54 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 4713)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.4ms | Allocations: 5200)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:19:26 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 6108)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.3ms | Allocations: 7451)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-01-09 10:19:32 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 5.9ms | Allocations: 4082)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 8127)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms | Allocations: 8809)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:19:35 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.8ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1010)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 4718)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.8ms | Allocations: 5206)
+
+
+Started GET "/recipe_books/show" for 127.0.0.1 at 2022-01-09 10:19:50 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms | Allocations: 1200)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find RecipeBook with 'id'=show):
+  
+app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:19:54 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 61.8ms | Allocations: 4723)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.4ms | Allocations: 5206)
+
+
+Started GET "/recipe_books/1" for 127.0.0.1 at 2022-01-09 10:20:22 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1111)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find RecipeBook with 'id'=1):
+  
+app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:20:41 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 62.0ms | Allocations: 4723)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.4ms | Allocations: 5206)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:21:29 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 1642)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 76.9ms | Allocations: 6111)
+Completed 200 OK in 87ms (Views: 84.0ms | ActiveRecord: 0.3ms | Allocations: 7453)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:21:32 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 11.3ms | Allocations: 573)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 4278)
+Completed 200 OK in 61ms (Views: 55.2ms | ActiveRecord: 0.3ms | Allocations: 5517)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:21:37 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 4713)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.3ms | Allocations: 5200)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:21:39 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 82.3ms | Allocations: 3884)
+Completed 200 OK in 116ms (Views: 86.5ms | ActiveRecord: 0.7ms | Allocations: 4916)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-09 10:21:40 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.7ms | Allocations: 4158)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 17.4ms | Allocations: 4554)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 64.0ms | Allocations: 8255)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 0.3ms | Allocations: 9415)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:21:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 3867)
+Completed 200 OK in 61ms (Views: 55.9ms | ActiveRecord: 0.3ms | Allocations: 4900)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-09 10:21:47 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 5.5ms | Allocations: 3318)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 7154)
+Completed 200 OK in 63ms (Views: 59.1ms | ActiveRecord: 0.3ms | Allocations: 8186)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-09 10:22:32 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 12.3ms | Allocations: 4241)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 46.9ms | Allocations: 4698)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 130.5ms | Allocations: 9134)
+Completed 200 OK in 168ms (Views: 149.6ms | ActiveRecord: 0.6ms | Allocations: 11032)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-09 10:23:05 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 6.6ms | Allocations: 4241)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 20.0ms | Allocations: 4699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 82.6ms | Allocations: 9134)
+Completed 200 OK in 96ms (Views: 90.7ms | ActiveRecord: 0.4ms | Allocations: 11152)
+
+
+Started GET "/recipe_books/2/edit" for 127.0.0.1 at 2022-01-09 10:23:46 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 6.5ms | Allocations: 4241)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 19.8ms | Allocations: 4708)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 331)
+  Rendered layout layouts/application.html.erb (Duration: 73.4ms | Allocations: 9153)
+Completed 200 OK in 88ms (Views: 81.3ms | ActiveRecord: 0.3ms | Allocations: 11179)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:24:03 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1517)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 65.3ms | Allocations: 5229)
+Completed 200 OK in 70ms (Views: 66.8ms | ActiveRecord: 0.3ms | Allocations: 5894)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:24:06 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 573)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 4278)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 0.3ms | Allocations: 5465)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-09 10:24:28 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 4713)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.4ms | Allocations: 5198)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:24:31 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 3858)
+Completed 200 OK in 64ms (Views: 60.6ms | ActiveRecord: 0.3ms | Allocations: 4890)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:25:25 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 5154)
+Completed 200 OK in 63ms (Views: 57.3ms | ActiveRecord: 0.3ms | Allocations: 7059)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-09 10:26:08 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 3867)
+Completed 200 OK in 62ms (Views: 58.9ms | ActiveRecord: 0.3ms | Allocations: 5023)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:21:35 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 14.9ms | Allocations: 689)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 19.1ms | Allocations: 338)
+  Rendered layout layouts/application.html.erb (Duration: 562.4ms | Allocations: 5174)
+Completed 200 OK in 627ms (Views: 575.9ms | ActiveRecord: 2.1ms | Allocations: 7748)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:22:49 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 44.2ms | Allocations: 699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 97.7ms | Allocations: 5168)
+Completed 200 OK in 112ms (Views: 105.1ms | ActiveRecord: 0.4ms | Allocations: 7198)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:23:19 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 15.7ms | Allocations: 713)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 74.9ms | Allocations: 5182)
+Completed 200 OK in 92ms (Views: 84.0ms | ActiveRecord: 0.4ms | Allocations: 7205)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:23:54 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 39.4ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 97.2ms | Allocations: 5178)
+Completed 200 OK in 113ms (Views: 107.0ms | ActiveRecord: 0.3ms | Allocations: 7201)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:24:18 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 14.5ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 69.8ms | Allocations: 5180)
+Completed 200 OK in 106ms (Views: 79.0ms | ActiveRecord: 0.3ms | Allocations: 7203)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-11 06:24:29 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 17.1ms | Allocations: 714)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 68.9ms | Allocations: 5194)
+Completed 200 OK in 83ms (Views: 77.9ms | ActiveRecord: 0.3ms | Allocations: 7225)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:20:46 -0800
+  [1m[35m (68.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (1.8ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 61.3ms | Allocations: 1089)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 15.4ms | Allocations: 350)
+  Rendered layout layouts/application.html.erb (Duration: 761.4ms | Allocations: 8487)
+Completed 200 OK in 1389ms (Views: 971.1ms | ActiveRecord: 4.3ms | Allocations: 23259)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:25:50 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 29.5ms | Allocations: 708)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 105.9ms | Allocations: 5177)
+Completed 200 OK in 135ms (Views: 121.9ms | ActiveRecord: 0.7ms | Allocations: 7289)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:26:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 16.5ms | Allocations: 706)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 107.4ms | Allocations: 5173)
+Completed 200 OK in 132ms (Views: 121.5ms | ActiveRecord: 0.5ms | Allocations: 7194)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:30:11 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 57.9ms | Allocations: 742)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 139.7ms | Allocations: 5209)
+Completed 200 OK in 186ms (Views: 169.3ms | ActiveRecord: 0.4ms | Allocations: 7230)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:30:45 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 30.2ms | Allocations: 707)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.9ms | Allocations: 336)
+  Rendered layout layouts/application.html.erb (Duration: 123.6ms | Allocations: 5191)
+Completed 200 OK in 165ms (Views: 151.1ms | ActiveRecord: 0.5ms | Allocations: 7212)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:31:10 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 34.8ms | Allocations: 707)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 104.8ms | Allocations: 5176)
+Completed 200 OK in 135ms (Views: 124.3ms | ActiveRecord: 0.4ms | Allocations: 7227)
+
+
+Started GET "/recipe_books/2" for 127.0.0.1 at 2022-01-13 21:36:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 36.5ms | Allocations: 749)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 108.0ms | Allocations: 5216)
+Completed 200 OK in 136ms (Views: 125.7ms | ActiveRecord: 0.4ms | Allocations: 7237)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-01-13 21:41:43 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 1745)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 91.6ms | Allocations: 5486)
+Completed 200 OK in 99ms (Views: 92.9ms | ActiveRecord: 0.7ms | Allocations: 6156)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:41:56 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 64.3ms | Allocations: 3860)
+Completed 200 OK in 72ms (Views: 66.2ms | ActiveRecord: 0.3ms | Allocations: 4938)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:49:05 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mRecipeBook Load (0.9ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 40.1ms | Allocations: 757)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 127.1ms | Allocations: 5225)
+Completed 200 OK in 172ms (Views: 150.5ms | ActiveRecord: 1.9ms | Allocations: 7798)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:49:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 35.0ms | Allocations: 747)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 104.1ms | Allocations: 5214)
+Completed 200 OK in 140ms (Views: 127.5ms | ActiveRecord: 0.5ms | Allocations: 7235)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:50:16 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 30.9ms | Allocations: 750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 110.7ms | Allocations: 5219)
+Completed 200 OK in 148ms (Views: 136.4ms | ActiveRecord: 0.6ms | Allocations: 7264)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:52:17 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 4.8ms | Allocations: 752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 96.8ms | Allocations: 5232)
+Completed 200 OK in 138ms (Views: 121.6ms | ActiveRecord: 0.7ms | Allocations: 7262)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:56:35 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 29.9ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 115.5ms | Allocations: 5213)
+Completed 200 OK in 141ms (Views: 130.1ms | ActiveRecord: 0.5ms | Allocations: 7239)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:57:12 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 42.2ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 117.4ms | Allocations: 5213)
+Completed 200 OK in 148ms (Views: 136.2ms | ActiveRecord: 0.4ms | Allocations: 7234)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 21:58:46 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 29.5ms | Allocations: 747)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 104.6ms | Allocations: 5226)
+Completed 200 OK in 131ms (Views: 120.5ms | ActiveRecord: 0.5ms | Allocations: 7248)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:00:46 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.8ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 5213)
+Completed 200 OK in 108ms (Views: 94.4ms | ActiveRecord: 0.8ms | Allocations: 7234)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:01:21 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 29.2ms | Allocations: 748)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 110.5ms | Allocations: 5216)
+Completed 200 OK in 136ms (Views: 125.9ms | ActiveRecord: 0.5ms | Allocations: 7242)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:02:49 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 30.0ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 95.6ms | Allocations: 5213)
+Completed 200 OK in 130ms (Views: 114.4ms | ActiveRecord: 0.6ms | Allocations: 7234)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:03:20 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 26.5ms | Allocations: 751)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 114.9ms | Allocations: 5232)
+Completed 200 OK in 145ms (Views: 128.7ms | ActiveRecord: 0.5ms | Allocations: 7260)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:03:21 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 69.9ms | Allocations: 3870)
+Completed 200 OK in 78ms (Views: 72.0ms | ActiveRecord: 0.5ms | Allocations: 5025)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:03:27 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 52.2ms | Allocations: 747)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 166.2ms | Allocations: 5215)
+Completed 200 OK in 205ms (Views: 186.8ms | ActiveRecord: 0.4ms | Allocations: 7118)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-01-13 22:03:45 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 753.4ms | Allocations: 11485)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 787.6ms | Allocations: 11931)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 879.8ms | Allocations: 15694)
+Completed 200 OK in 896ms (Views: 883.5ms | ActiveRecord: 0.4ms | Allocations: 17006)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:04:10 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"- Pasta\r\n- Pasta Sauce\r\n- Spices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (2.5ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "- Pasta\r\n- Pasta Sauce\r\n- Spices to Taste"], ["updated_at", "2022-01-14 06:04:10.136233"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (98.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 128ms (ActiveRecord: 102.0ms | Allocations: 4418)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:04:10 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 75.1ms | Allocations: 3865)
+Completed 200 OK in 84ms (Views: 78.0ms | ActiveRecord: 0.5ms | Allocations: 4927)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-01-13 22:04:18 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.6ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 8.3ms | Allocations: 3333)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3485)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 90.2ms | Allocations: 7202)
+Completed 200 OK in 99ms (Views: 92.5ms | ActiveRecord: 0.6ms | Allocations: 8232)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:04:38 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"\\n- Pasta\r\n\\n- Pasta Sauce\r\n- Spices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.7ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (3.0ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "\\n- Pasta\r\n\\n- Pasta Sauce\r\n- Spices to Taste"], ["updated_at", "2022-01-14 06:04:39.046939"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (111.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 152ms (ActiveRecord: 115.0ms | Allocations: 3314)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-01-13 22:04:39 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 3875)
+Completed 200 OK in 76ms (Views: 69.9ms | ActiveRecord: 0.5ms | Allocations: 4913)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-15 21:27:30 -0800
+  [1m[35m (33.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 98.7ms | Allocations: 487)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 31.3ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 641.2ms | Allocations: 8061)
+Completed 200 OK in 1399ms (Views: 899.1ms | ActiveRecord: 0.0ms | Allocations: 12871)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-15 21:28:09 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 4.1ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 3990)
+Completed 200 OK in 78ms (Views: 75.5ms | ActiveRecord: 0.0ms | Allocations: 4758)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:28:11 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 53.4ms | Allocations: 10887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 95.4ms | Allocations: 14797)
+Completed 200 OK in 127ms (Views: 99.4ms | ActiveRecord: 1.5ms | Allocations: 16774)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:28:20 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 30.2ms | Allocations: 740)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 4662)
+Completed 200 OK in 171ms (Views: 86.4ms | ActiveRecord: 0.5ms | Allocations: 7139)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:28:25 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 549.6ms | Allocations: 9787)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 563.9ms | Allocations: 10231)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 614.0ms | Allocations: 14081)
+Completed 200 OK in 620ms (Views: 615.1ms | ActiveRecord: 0.3ms | Allocations: 15307)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:28:43 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"Pasta\r\nPasta Sauce\r\n- Spices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (46.5ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "Pasta\r\nPasta Sauce\r\n- Spices to Taste"], ["updated_at", "2022-11-16 05:28:43.940168"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (140.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 203ms (ActiveRecord: 187.7ms | Allocations: 4419)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:28:44 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 3865)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.4ms | Allocations: 4926)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:28:52 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.0ms | Allocations: 3333)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3485)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 58.7ms | Allocations: 7187)
+Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 0.3ms | Allocations: 8232)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:29:02 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"\\nPasta\r\n\\nPasta Sauce\r\n- Spices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (1.2ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "\\nPasta\r\n\\nPasta Sauce\r\n- Spices to Taste"], ["updated_at", "2022-11-16 05:29:02.579535"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (130.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 143ms (ActiveRecord: 132.3ms | Allocations: 3306)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:29:02 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 3860)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.3ms | Allocations: 4895)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:29:07 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1029)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 68.1ms | Allocations: 4734)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.4ms | Allocations: 5233)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:29:15 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.2ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 3859)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 0.2ms | Allocations: 4889)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:29:22 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 3.8ms | Allocations: 3315)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3467)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 7169)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.3ms | Allocations: 8202)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:05 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"Pasta\r\nPasta Sauce\r\nSpices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (1.3ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "Pasta\r\nPasta Sauce\r\nSpices to Taste"], ["updated_at", "2022-11-16 05:30:05.258593"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (75.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 90ms (ActiveRecord: 77.0ms | Allocations: 3293)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:05 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 72.6ms | Allocations: 3860)
+Completed 200 OK in 78ms (Views: 74.2ms | ActiveRecord: 0.3ms | Allocations: 4895)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:30:15 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1004)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 60.3ms | Allocations: 4707)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.3ms | Allocations: 5192)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-11-15 21:30:25 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.7ms | Allocations: 3267)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 3510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 7200)
+Completed 200 OK in 83ms (Views: 79.1ms | ActiveRecord: 0.0ms | Allocations: 7883)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:30:28 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1004)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 4718)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.3ms | Allocations: 5203)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:39 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 3859)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.3ms | Allocations: 4889)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:30:42 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.4ms | Allocations: 3315)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 5.1ms | Allocations: 3467)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 7157)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.3ms | Allocations: 8187)
+
+
+Started PATCH "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:52 -0800
+Processing by RecipeBooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "recipe_book"=>{"recipe_name"=>"Pasta", "recipe_description"=>"Pasta with tomato sauce", "submitted_by"=>"Kevin C", "time_to_prepare"=>"40", "rating"=>"4", "difficulty"=>"Easy", "category"=>"Pasta", "ingredients"=>"Pasta,\r\nPasta Sauce,\r\nSpices to Taste", "instructions"=>"Add pasta sauce to a 2.5qt saucepan (Add desired meat to sauce. ex. meatballs or ground meat) on medium/low heat.\r\nBoil Water\r\nFollow instructions on the pasta package for cooking the pasta.\r\nAdd strained pasta to the sauce, remove from heat, and enjoy.", "comments"=>"This dish goes well with parmesan cheese.", "vegetarian"=>"1", "vegan"=>"0", "gluten_free"=>"0", "dairy_free"=>"1", "keto"=>"0"}, "commit"=>"Update Recipe book", "id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mRecipeBook Update (1.3ms)[0m  [1m[33mUPDATE "recipe_books" SET "ingredients" = ?, "updated_at" = ? WHERE "recipe_books"."id" = ?[0m  [["ingredients", "Pasta,\r\nPasta Sauce,\r\nSpices to Taste"], ["updated_at", "2022-11-16 05:30:52.217447"], ["id", 3]]
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (116.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/recipe_books_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/recipe_books/3
+Completed 302 Found in 136ms (ActiveRecord: 118.2ms | Allocations: 3307)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:52 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 3872)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.3ms | Allocations: 4909)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:30:57 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.2ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 4.0ms | Allocations: 3315)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3467)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 55.9ms | Allocations: 7169)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.2ms | Allocations: 8200)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-15 21:30:58 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 3858)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.3ms | Allocations: 4888)
+
+
+Started GET "/recipe_books/3/edit" for 127.0.0.1 at 2022-11-15 21:31:01 -0800
+Processing by RecipeBooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/edit.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 3.8ms | Allocations: 3315)
+  Rendered recipe_books/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3467)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 7157)
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.3ms | Allocations: 8187)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:31:03 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1004)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 4709)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.3ms | Allocations: 5195)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-11-15 21:31:07 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 3.6ms | Allocations: 3243)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3358)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 7058)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms | Allocations: 7558)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-15 21:31:09 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.3ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1004)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 4707)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.3ms | Allocations: 5192)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-15 21:31:10 -0800
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 62.0ms | Allocations: 3758)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms | Allocations: 4227)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-15 21:31:12 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 3771)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms | Allocations: 4240)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-15 21:31:18 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 64.4ms | Allocations: 3770)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 4236)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-16 20:39:38 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 32.7ms | Allocations: 1781)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 273.1ms | Allocations: 5522)
+Completed 200 OK in 276ms (Views: 274.9ms | ActiveRecord: 1.0ms | Allocations: 6006)
+
+
+Started GET "/recipe_books/3" for 127.0.0.1 at 2022-11-16 20:42:42 -0800
+Processing by RecipeBooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipeBook Load (0.4ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books" WHERE "recipe_books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/recipe_books_controller.rb:62:in `set_recipe_book'
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/show.html.erb within layouts/application
+  Rendered recipe_books/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 54.2ms | Allocations: 3858)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 0.4ms | Allocations: 4929)
+
+
+Started GET "/recipe_books" for 127.0.0.1 at 2022-11-16 20:45:25 -0800
+Processing by RecipeBooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/index.html.erb within layouts/application
+  [1m[36mRecipeBook Load (0.5ms)[0m  [1m[34mSELECT "recipe_books".* FROM "recipe_books"[0m
+  ↳ app/views/recipe_books/index.html.erb:28
+  Rendered recipe_books/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1004)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 72.9ms | Allocations: 4707)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.5ms | Allocations: 5192)
+
+
+Started GET "/recipe_books/new" for 127.0.0.1 at 2022-11-16 20:49:21 -0800
+Processing by RecipeBooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipe_books/new.html.erb within layouts/application
+  Rendered recipe_books/_form.html.erb (Duration: 7.2ms | Allocations: 3244)
+  Rendered recipe_books/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 7061)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms | Allocations: 7561)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-16 20:50:13 -0800
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 3758)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 4226)
+
+
