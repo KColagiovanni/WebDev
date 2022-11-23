@@ -22,4 +22,4 @@ Create a CRUD site quickly:
   - To manually add a new page, like an "About" page, create a new file (don'f forget to make the file type *.html.erb) in the same home folder mentioned above, then go     to <name_of_app>/app/controllers/home_controller.html.erb and add "def about end" (exactly the same way that the existing 'index' is in that file) and save, finally     go to the <name_of_app>/config/routes.rb file and add "get 'home/about'" and save. Now the about page can be viewed at "localhost:3000/home/about".
   - <name_of_app>/app/views/home/index.html.erb is the home page in HTML format. The views directoy is where all of the html pages will be stored.
   - <name_of_app>/app/views/layouts/application.html.erb is the "base" page. All of the other HTML pages will render in the yield tags on that page.
-  - To create a CRUD scaffold type "rails g scaffold <name_of_column>:<datatype> <name_of_column2>:<datatype> and so on..."
+  - To create a CRUD scaffold type "rails g scaffold <name_of_scaffold(singular is best)> <name_of_column>:<datatype> <name_of_column2>:<datatype> and so on..."
